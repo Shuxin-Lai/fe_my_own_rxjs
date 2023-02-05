@@ -1,4 +1,4 @@
-import '../lib'
+import '../lib/observe'
 import { interval, fromEvent } from 'rxjs'
 import { switchMapTo, map, take, startWith } from 'rxjs/operators'
 
